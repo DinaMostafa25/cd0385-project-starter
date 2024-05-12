@@ -27,38 +27,21 @@ TODO: in Hyper parameter tuning
 |--|--|--|--|--|
 |initial|default|default|default|1.84672|
 |add_features|default|default|default|0.59398|
-|hpo|{'n_estimators': 10000, 'learning_rate': 0.13416642577896967,'n_jobs': -1,'proc.max_category_levels': 100,'objective': 'reg:squarederror', 'booster':'gbtree','max_depth': 3,'min_child_weight': 5,'colsample_bytree': 0.7187936056313462}|
-     {'n_estimators': 10000,
-       'learning_rate': 0.02386109712430462,
-       'n_jobs': -1,
-       'proc.max_category_levels': 100,
-       'objective': 'reg:squarederror',
-       'booster': 'gbtree',
-       'max_depth': 8,
-       'min_child_weight': 3,
-       'colsample_bytree': 0.7724415914984484}|
-        {'n_estimators': 10000,
-         'learning_rate': 0.09276005809908329,
-         'n_jobs': -1,
-         'proc.max_category_levels': 100,
-         'objective': 'reg:squarederror',
-         'booster': 'gbtree',
-         'max_depth': 10,
-         'min_child_weight': 1,
-         'colsample_bytree': 0.6917207594128889}|0.77911|
+|hpo|{'n_estimators': 10000, 'learning_rate': 0.13416642577896967,'n_jobs': -1,'proc.max_category_levels': 100,'objective': 'reg:squarederror', 'booster':'gbtree','max_depth': 3,'min_child_weight': 5,'colsample_bytree': 0.7187936056313462}|{'n_estimators': 10000,'learning_rate':0.02386109712430462,'n_jobs': -1,'proc.max_category_levels': 100,'objective': 'reg:squarederror','booster': 'gbtree','max_depth': 8,'min_child_weight': 3,'colsample_bytree': 0.7724415914984484}|{'n_estimators': 10000,'learning_rate': 0.09276005809908329,'n_jobs': -1,'proc.max_category_levels': 100,'objective': 'reg:squarederror','booster':'gbtree','max_depth':10,'min_child_weight':1,'colsample_bytree':0.6917207594128889}
+|0.77911|
 
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 TODO: Replace the image below with your own.
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](https://github.com/DinaMostafa25/cd0385-project-starter/blob/main/project/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 TODO: Replace the image below with your own.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](https://github.com/DinaMostafa25/cd0385-project-starter/blob/main/project/model_test_score.png)
 
 ## Summary
 TODO: Add your explanation
