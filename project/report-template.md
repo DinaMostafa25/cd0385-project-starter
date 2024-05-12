@@ -27,15 +27,7 @@ TODO: in Hyper parameter tuning
 |--|--|--|--|--|
 |initial|default|default|default|1.84672|
 |add_features|default|default|default|0.59398|
-|hpo|{'n_estimators': 10000,
-     'learning_rate': 0.13416642577896967,
-     'n_jobs': -1,
-     'proc.max_category_levels': 100,
-     'objective': 'reg:squarederror',
-     'booster': 'gbtree',
-     'max_depth': 3,
-     'min_child_weight': 5,
-     'colsample_bytree': 0.7187936056313462}|
+|hpo|{'n_estimators': 10000, 'learning_rate': 0.13416642577896967,'n_jobs': -1,'proc.max_category_levels': 100,'objective': 'reg:squarederror', 'booster':'gbtree','max_depth': 3,'min_child_weight': 5,'colsample_bytree': 0.7187936056313462}|
      {'n_estimators': 10000,
        'learning_rate': 0.02386109712430462,
        'n_jobs': -1,
